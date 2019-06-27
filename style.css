@@ -168,6 +168,8 @@ letter-spacing: 0.38px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    display: block;
+    background-position: bottom;
 }
 .offer__item:first-of-type{
     margin-bottom: 20px;
@@ -265,9 +267,11 @@ letter-spacing: 0.38px;
 
 .fetured__img {
     height:279px;
+    display: block;
 }
 
 .fetured__item__title {
+color: #222222;
 font-size: 13px;
 font-weight: 600;
 text-transform: uppercase;
@@ -325,6 +329,7 @@ font-weight: 700;
     margin-top: 113px;
     display: flex;
     justify-content: center;
+    margin-bottom: 97px;
 }
 
 .banner__item {
@@ -402,4 +407,24 @@ color: #f16d7f;
     width:47px;
     padding-left: 36px;
     padding-right: 35px;
+}
+
+.subscribe-review__block {
+    height: 437px;
+    width: 100%;
+    background-image: url(img/subscribe-review-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: -10px;
+    display: flex;
+}
+
+.review {
+    width: 50%;
+    height: 437px;
+}
+
+.subscribe {
+    width: 50%;
+    height: 437px;
+    border-left: 1px solid #ffffff;
 }
