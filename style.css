@@ -414,8 +414,8 @@ color: #f16d7f;
     width: 100%;
     background-image: url(img/subscribe-review-bg.jpg);
     background-repeat: no-repeat;
-    background-position: -10px;
     display: flex;
+    background-size: cover;
 }
 
 .review {
@@ -427,4 +427,110 @@ color: #f16d7f;
     width: 50%;
     height: 437px;
     border-left: 1px solid #ffffff;
+}
+
+.review__block {
+    width: 500px;
+    margin-top: 123px;
+    display: flex;
+    margin-left: 240px;
+}
+
+.review__photo {
+    width:83px;
+    height:83px;
+    padding-right: 28px;
+}
+
+.review__content {
+    color: #222224;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+
+.reviewer_name {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.reviewer_location {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+}
+
+.review__text {
+    width: 386px;
+}
+
+.review__dots {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 41px;
+}
+
+.review__dot {
+    margin-right: 13px;
+}
+
+.subscribe__block {
+    width: 386px;
+    margin-left: 92px;
+    margin-top: 148px;
+    text-align: center;
+}
+
+.subscribe__h3 {
+    color: #222224;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.suscribe__h4 {
+    color: #222224;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.subscribe__form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__input {
+    width: 282px;
+    border-radius: 23px 0px 0px 23px;
+    background-color: #e1e1e1;
+    height: 46px;
+    border-color:transparent;
+    padding-left: 28px;
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscribe__button {
+    width:104px;
+    height: 50px;
+    border-radius:0px 23px 23px 0px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.35px;
 }
