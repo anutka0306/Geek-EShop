@@ -124,6 +124,10 @@ letter-spacing: 0.38px;
     padding: 20px;
 }
 
+.menu__link:hover {
+    color: #f16d7f;
+}
+
 .promo {
     height:613px;
     background-color: #e8e8e8;
@@ -533,4 +537,99 @@ color: #f16d7f;
     font-weight: 400;
     line-height: 47px;
     letter-spacing: 0.35px;
+}
+
+.footer__block {
+    
+}
+
+.footer__logo {
+    margin-bottom:41px;
+}
+
+.brand__content {
+    width:427px;
+}
+
+.footer__text {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer_big {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 123px;
+    padding-bottom: 89px;
+}
+
+.footer__menu__block {
+    list-style-type: none;
+}
+
+.footer__menu__item {
+color: #898989;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.4px;
+line-height: 42px;
+}
+
+
+.footer__menu__title {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    line-height: 42px;
+    padding-bottom: 30px;
+}
+
+.footer_small {
+    background-color: #e6e6e6;
+}
+
+.footer__small__block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+
+.copyright__text {
+    color: #7a7a7a;
+font-size: 16px;
+font-weight: 400;
+line-height: 42px;
+}
+
+.social__item {
+    width:32px;
+    height: 32px;
+    display: block;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.social__item:hover {
+    background-color: #f16d7f;
+}
+.social__item:hover .social__img{
+    color: #ffffff;
+}
+
+.social__img {
+    margin: 9px auto;
+    display: block;
+    font-family: fontAwesome;
+    color: #b8b8b8;
+    font-style: normal;
+}
+
+.social__block {
+    display: flex;
 }
