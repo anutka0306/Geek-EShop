@@ -124,6 +124,10 @@ letter-spacing: 0.38px;
     padding: 20px;
 }
 
+.menu__link:hover {
+    color: #f16d7f;
+}
+
 .promo {
     height:613px;
     background-color: #e8e8e8;
@@ -168,6 +172,8 @@ letter-spacing: 0.38px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    display: block;
+    background-position: bottom;
 }
 .offer__item:first-of-type{
     margin-bottom: 20px;
@@ -265,9 +271,11 @@ letter-spacing: 0.38px;
 
 .fetured__img {
     height:279px;
+    display: block;
 }
 
 .fetured__item__title {
+color: #222222;
 font-size: 13px;
 font-weight: 600;
 text-transform: uppercase;
@@ -325,6 +333,7 @@ font-weight: 700;
     margin-top: 113px;
     display: flex;
     justify-content: center;
+    margin-bottom: 97px;
 }
 
 .banner__item {
@@ -402,4 +411,225 @@ color: #f16d7f;
     width:47px;
     padding-left: 36px;
     padding-right: 35px;
+}
+
+.subscribe-review__block {
+    height: 437px;
+    width: 100%;
+    background-image: url(img/subscribe-review-bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+}
+
+.review {
+    width: 50%;
+    height: 437px;
+}
+
+.subscribe {
+    width: 50%;
+    height: 437px;
+    border-left: 1px solid #ffffff;
+}
+
+.review__block {
+    width: 500px;
+    margin-top: 123px;
+    display: flex;
+    margin-left: 240px;
+}
+
+.review__photo {
+    width:83px;
+    height:83px;
+    padding-right: 28px;
+}
+
+.review__content {
+    color: #222224;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+
+.reviewer_name {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.reviewer_location {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+}
+
+.review__text {
+    width: 386px;
+}
+
+.review__dots {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 41px;
+}
+
+.review__dot {
+    margin-right: 13px;
+}
+
+.subscribe__block {
+    width: 386px;
+    margin-left: 92px;
+    margin-top: 148px;
+    text-align: center;
+}
+
+.subscribe__h3 {
+    color: #222224;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.suscribe__h4 {
+    color: #222224;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.subscribe__form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__input {
+    width: 282px;
+    border-radius: 23px 0px 0px 23px;
+    background-color: #e1e1e1;
+    height: 46px;
+    border-color:transparent;
+    padding-left: 28px;
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscribe__button {
+    width:104px;
+    height: 50px;
+    border-radius:0px 23px 23px 0px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.35px;
+}
+
+.footer__block {
+    
+}
+
+.footer__logo {
+    margin-bottom:41px;
+}
+
+.brand__content {
+    width:427px;
+}
+
+.footer__text {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footer_big {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 123px;
+    padding-bottom: 89px;
+}
+
+.footer__menu__block {
+    list-style-type: none;
+}
+
+.footer__menu__item {
+color: #898989;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.4px;
+line-height: 42px;
+}
+
+
+.footer__menu__title {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    line-height: 42px;
+    padding-bottom: 30px;
+}
+
+.footer_small {
+    background-color: #e6e6e6;
+}
+
+.footer__small__block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+
+.copyright__text {
+    color: #7a7a7a;
+font-size: 16px;
+font-weight: 400;
+line-height: 42px;
+}
+
+.social__item {
+    width:32px;
+    height: 32px;
+    display: block;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.social__item:hover {
+    background-color: #f16d7f;
+}
+.social__item:hover .social__img{
+    color: #ffffff;
+}
+
+.social__img {
+    margin: 9px auto;
+    display: block;
+    font-family: fontAwesome;
+    color: #b8b8b8;
+    font-style: normal;
+}
+
+.social__block {
+    display: flex;
 }
