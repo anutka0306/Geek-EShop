@@ -425,6 +425,8 @@ color: #f16d7f;
 .review {
     width: 50%;
     height: 437px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .subscribe {
@@ -437,7 +439,7 @@ color: #f16d7f;
     width: 500px;
     margin-top: 123px;
     display: flex;
-    margin-left: 240px;
+    margin-right: 72px;
 }
 
 .review__photo {
@@ -537,6 +539,7 @@ color: #f16d7f;
     font-weight: 400;
     line-height: 47px;
     letter-spacing: 0.35px;
+    cursor: pointer;
 }
 
 .footer__block {
@@ -577,6 +580,10 @@ letter-spacing: 0.4px;
 line-height: 42px;
 }
 
+.footer__menu__item:hover{
+    color: #f16d7f;
+}
+
 
 .footer__menu__title {
     color: #f16d7f;
@@ -615,6 +622,8 @@ line-height: 42px;
     margin-right: 8px;
 }
 
+
+
 .social__item:hover {
     background-color: #f16d7f;
 }
@@ -632,4 +641,101 @@ line-height: 42px;
 
 .social__block {
     display: flex;
+}
+
+.drop {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border:1px solid #ececec;
+    padding: 20px;
+    position: absolute;
+    top: 26px;
+}
+
+.drop::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top:-6px;
+    left:30px;
+    border-top:1px solid #ececec;
+    border-left: 1px solid #ececec;
+}
+
+.drop__ul {
+    list-style-type: none;
+}
+
+.drop__link {
+    text-decoration: none;
+    color: #646464;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.drop__link:hover {
+    color: #f16d7f;
+}
+
+.drop__h3 {
+    color: #232323;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    padding-top: 37px;
+}
+.drop__h3:first-of-type{
+    padding-top: 0px;
+}
+
+.drop__flex {
+    width: 235px;
+    margin-right: 46px;
+}
+
+.drop__flex:last-of-type{
+    margin-right: 0px;
+}
+
+.menu-drop__block {
+    position: relative;
+}
+
+.drop__mega-menu {
+    display: none;
+}
+
+.menu-drop__block:hover .drop__mega-menu{
+    display: flex;
+}
+
+.drop__image {
+    margin-left: -20px;
+    margin-top: 20px;
+    width: 255px;
+    height: 118px;
+    background-image: url(img/drop-menu-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.drop__image__name {
+    width: 71px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
 }
