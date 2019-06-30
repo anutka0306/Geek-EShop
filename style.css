@@ -60,12 +60,20 @@ a{
     background-color: #cdcdcc;
     background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
     padding: 14px 15px;
-    color: #222222;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
     border-right: none;
+    display: block;
+    cursor: pointer;
+    position: relative;
 }
+
+.header__browse:hover .browse__menu{
+    display: block;
+}
+
+
 
 .logo_img {
     margin-right: 13px;
@@ -79,7 +87,8 @@ a{
     font-weight: 300;
     letter-spacing: 0.35px;
     padding-left: 16px;
-    padding-right: 160px;
+    padding-right: 16px;
+    width: 249px;
 }
 
 .headerSearch__btn {
@@ -524,6 +533,7 @@ color: #f16d7f;
     height: 46px;
     border-color:transparent;
     padding-left: 28px;
+    padding-right: 28px;
     color: #222224;
     font-size: 14px;
     font-weight: 400;
@@ -738,4 +748,41 @@ text-transform: uppercase;
     position: absolute;
     bottom: 12px;
     right: 10px;
+}
+
+.drop__browse {
+    width:242px;
+}
+
+.browse__menu {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border:1px solid #ececec;
+    padding: 20px;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    z-index: 100;
+    display: none;
+}
+
+.browse__menu::before{
+  content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top:-6px;
+    left:64px;
+    border-top:1px solid #ececec;
+    border-left: 1px solid #ececec;  
+}
+
+
+
+
+
+.header__browse__link {
+     color: #222222;
 }
