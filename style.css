@@ -1034,3 +1034,74 @@ font-weight: 700;
 line-height: 20px;
 text-transform: uppercase;
 }
+
+.trending-filter__block {
+    padding-right: 85px;
+    padding-top: 25px;
+font-size: 14px;
+font-weight: 400;
+color: #dfdfdf;
+}
+
+.trending-filter__item {
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+    line-height: 31px;
+}
+
+.size-filter__item {
+    margin-right: 8px;
+    margin-bottom: 13px;
+}
+
+.size-filter__label {
+    margin-right: 23px;
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.size-filter__block {
+    margin-top: 25px;
+}
+
+.price-filter__progress {
+    margin-top: 25px;
+    width: 100%;
+    
+}
+
+.price-filer__values {
+    display: flex;
+    justify-content: space-between;
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+    margin-top: 21px;
+}
+
+.sort__block {
+    margin-top: 40px;
+    background-color: #f3f3f3;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.sort__block__form {
+    margin-right: 10px;
+}
+
+.sort__button {
+    width: 66px;
+    height: 30px;
+    border: 1px solid #ebebeb;
+background-color: #ffffff;
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+    text-align: center;
+}

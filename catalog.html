@@ -331,13 +331,55 @@
             <div class="catalog__filter_center">
                 <div class="filter_center__item">
                     <p class="filter_center__title">Trending now</p>
+                    <div class="trending-filter__block">
+                        <a href="#" class="trending-filter__item">Bohemian </a> |  
+                        <a href="#" class="trending-filter__item"> Floral </a>    |     
+                        <a href="#" class="trending-filter__item"> Lace </a> 
+                        <a href="#" class="trending-filter__item"> Floral </a>    |     
+                        <a href="#" class="trending-filter__item"> Lace </a>    |     
+                        <a href="#" class="trending-filter__item"> Bohemian</a>
+                    </div>
                 </div>
                 <div class="filter_center__item">
                      <p class="filter_center__title">Size</p>
+                     <div class="size-filter__block">
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">XXS</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">XS</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">S</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">M</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">L</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">XL</label>
+                         <input type="checkbox" class="size-filter__item"><label class="size-filter__label">XXL</label>
+                     </div>
                 </div>
                 <div class="filter_center__item">
                      <p class="filter_center__title">pRICE</p>
+                     <div class="price-filter__block">
+                         <progress class="price-filter__progress" value="100" min="10" max="400"></progress>
+                         <div class="price-filer__values">
+                             <p>$52</p>
+                             <p>$400</p>
+                         </div>
+                     </div>
                 </div>
+            </div>
+            <div class="sort__block">
+               <form class="sort__block__form" action="">
+               <input type="submit" value="Sort By" class="sort__button">
+               <select class="sort__select" name="" id="">
+                   <option>Name</option>
+                   <option>Price</option>
+                   <option>Date</option>
+               </select>
+               </form>
+               <form class="sort__block__form" action="">
+               <input type="text" value="Show" class="sort__button">
+               <select class="sort__select" name="" id="">
+                   <option>9</option>
+                   <option>18</option>
+                   <option>36</option>
+               </select>
+               </form> 
             </div>
         </div>
     </div>
