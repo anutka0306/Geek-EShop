@@ -1,3 +1,8 @@
+*
+  margin: 0
+  padding: 0
+
+
 body
   font-family: 'Lato', sans-serif
 
@@ -552,6 +557,7 @@ a
     letter-spacing: 0.6px
     line-height: 24px
     text-transform: uppercase
+    padding-bottom: 12px
 
 
   &__h4
@@ -567,6 +573,7 @@ a
   &__form
     display: flex
     justify-content: center
+    padding-top: 35px
 
 
   &__input
@@ -646,12 +653,12 @@ a
     line-height: 26px
 
 
-  &_location
-    color: #222224
-    font-size: 12px
-    font-weight: 300
-    letter-spacing: 0.3px
-    line-height: 14px
+.reviewer_location
+  color: #222224
+  font-size: 12px
+  font-weight: 300
+  letter-spacing: 0.3px
+  line-height: 14px
 
 
 
@@ -882,7 +889,6 @@ a
 .page-title__block
   height: 148px
   background-color: #f8f3f4
-  margin-bottom: 59px
 
 
 .page-title__h1
@@ -910,6 +916,8 @@ a
     text-transform: uppercase
     font-weight: 700
 
+.catalog__block
+  margin-top: 59px
 
 .catalog__menu_left 
   width: 243px
@@ -1186,4 +1194,76 @@ a
 
 .advantage__image 
   margin-bottom: 32px
+
+.product-slider__block
+  width: 100%
+  border: 1px solid #eaeaea
+  height: 777px
+  background-color: #f7f7f7
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.product-slider__arrow
+  width: 47px
+  height: 47px
+
+.product-slider__image
+  height: 630px
+  padding-top: 11px
+
+.product-description__block
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  z-index: 100
+  margin-top: -73px
+  padding-top: 73px
+  padding-bottom: 122px
+
+.product-description__title
+  text-align: center
+  margin: 0 auto
+  width: 255px
+
+.product-description__h3
+  color: #f16d7f
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  padding-bottom: 15px
+
+.product-description__h4
+  color: #4d4d4d
+  font-size: 18px
+  font-weight: 400
+  text-transform: uppercase
+  margin-bottom: 67px
+
+.product-description__text
+  width: 618px
+  color: #5e5e5e
+  font-size: 14px
+  font-weight: 300
+  margin: 0 auto
+  text-align: center
+  line-height: 24px
+
+.product-description__params
+  display: flex
+  width: 340px
+  margin: 0 auto
+  justify-content: space-between
+  margin-top: 28px
+
+.param-name
+  color: #b9b9b9
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+  &:first-of-type
+    padding-right: 44px
+
+.param-value
+  color: #2f2f2f
 
