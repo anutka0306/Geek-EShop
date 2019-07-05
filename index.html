@@ -6,34 +6,259 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbeb08ead3.js"></script>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <!--lesson1 -->
 <body>
    <header class="header">
        <div class="container flex-between">
            <div class="header__item">
-               <a href="#" class="logo">
+               <a href="index.html" class="logo">
                    <img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo_d">D</span>
                </a>
                <form action="#" class="header__form">
-                   <div class="header__browse">Browse</div><input class="headerSearch__input" placeholder="Search for Item..." type="text"><button class="headerSearch__btn"><i class="fas fa-search"></i></button>
+                  <div class="header__browse"><a class="header__browse__link" href="#">Browse</a>
+                   <div class="browse__menu drop__browse-menu">
+                   <div class="drop__browse">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                        <li><a href="catalog.html" class="drop__link">Blazers</a></li>
+                        <li><a href="catalog.html" class="drop__link">Denim</a></li>
+                        <li><a href="catalog.html" class="drop__link">Leggings/Pants</a></li>
+                        <li><a href="catalog.html" class="drop__link">Skirts/Shorts</a></li>
+                        <li><a href="catalog.html" class="drop__link">Accessories</a></li> 
+                       </ul>
+                        <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                   </div>
+                   
+                   </div>
+                   </div>
+                   <input class="headerSearch__input" placeholder="Search for Item..." type="text"><button class="headerSearch__btn"><i class="fas fa-search"></i></button>
                </form>
            </div>
            <div class="header__item">
-               <a href="#" alt="cart"><img class="cart__img" src="img/cart.svg" alt="cart"></a><a href="#" class="button">My account</a>
+               <div class="cart__drop__menu"><a href="#" alt="cart"><img class="cart__img" src="img/cart.svg" alt="cart"></a>
+                   <div class="cart__menu">
+                       <div class="cart__menu__item">
+                           <img src="img/cart-img1.jpg" alt="good" class="cart__menu__img">
+                           <div class="cart__menu__item__description">
+                               <p class="cart__menu_name">Rebox Zane</p>
+                               <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                               <div class="cart__item_price">1  x   $250</div>
+                           </div>
+                           <a href="" class="cart__button_delite"><i class="fas fa-times-circle"></i></a>
+                       </div>
+                       <div class="cart__menu__item">
+                           <img src="img/cart-img2.jpg" alt="good" class="cart__menu__img">
+                           <div class="cart__menu__item__description">
+                               <p class="cart__menu_name">Rebox Zane</p>
+                               <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                               <div class="cart__item_price">1  x   $250</div>
+                           </div>
+                           <a href="" class="cart__button_delite"><i class="fas fa-times-circle"></i></a>
+                       </div>
+                       <div class="cart_total-price">
+                       <p>TOTAL	</p>
+                        <p>$500.00</p>
+                       </div>
+                       <button class="cart__button_checkout">
+                       Checkout
+                       </button>
+                       <button class="cart__button_go-to-cart">
+                       go to cart
+                       </button>
+                   </div>
+               </div>
+               <a href="#" class="button">My account</a>
            </div>
        </div>
    </header>
    <nav>
        <ul class="menu">
-           <li><a href="" class="menu__link">Home</a></li>
-           <li><a href="" class="menu__link">Man</a></li>
-           <li><a href="" class="menu__link">Women</a></li>
-           <li><a href="" class="menu__link">Kids</a></li>
-           <li><a href="" class="menu__link">Accoseriese</a></li>
-           <li><a href="" class="menu__link">Featured</a></li>
-           <li><a href="" class="menu__link">Hot Deals</a></li> 
+           <li class="menu-drop__block"><a href="index.html" class="menu__link">Home</a></li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Man</a>
+               <div class="drop drop__mega-menu">
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                        <li><a href="catalog.html" class="drop__link">Blazers</a></li>
+                        <li><a href="catalog.html" class="drop__link">Denim</a></li>
+                        <li><a href="catalog.html" class="drop__link">Leggings/Pants</a></li>
+                        <li><a href="catalog.html" class="drop__link">Skirts/Shorts</a></li>
+                        <li><a href="catalog.html" class="drop__link">Accessories</a></li> 
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Women</a>
+            <div class="drop drop__mega-menu">
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                        <li><a href="catalog.html" class="drop__link">Blazers</a></li>
+                        <li><a href="catalog.html" class="drop__link">Denim</a></li>
+                        <li><a href="catalog.html" class="drop__link">Leggings/Pants</a></li>
+                        <li><a href="catalog.html" class="drop__link">Skirts/Shorts</a></li>
+                        <li><a href="catalog.html" class="drop__link">Accessories</a></li> 
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Kids</a>
+                <div class="drop drop__mega-menu">
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                        <li><a href="catalog.html" class="drop__link">Blazers</a></li>
+                        <li><a href="catalog.html" class="drop__link">Denim</a></li>
+                        <li><a href="catalog.html" class="drop__link">Leggings/Pants</a></li>
+                        <li><a href="catalog.html" class="drop__link">Skirts/Shorts</a></li>
+                        <li><a href="catalog.html" class="drop__link">Accessories</a></li> 
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Accoseriese</a>
+                <div class="drop drop__mega-menu">
+                   
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                       </ul>
+                   </div>
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Featured</a>
+                <div class="drop drop__mega-menu">
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li>
+           <li class="menu-drop__block"><a href="catalog.html" class="menu__link">Hot Deals</a>
+                <div class="drop drop__mega-menu">
+                   <div class="drop__flex">
+                       <h3 class="drop__h3">Women</h3>
+                       <ul class="drop__ul">
+                        <li><a href="catalog.html" class="drop__link">Dresses</a></li>
+                        <li><a href="catalog.html" class="drop__link">Tops</a></li>
+                        <li><a href="catalog.html" class="drop__link">Sweaters/Knits</a></li>
+                        <li><a href="catalog.html" class="drop__link">Jackets/Coats</a></li>
+                       </ul>
+                       <div class="drop__image"><p class="drop__image__name">Super sale!</p></div>
+                   </div>
+               </div>
+           </li> 
        </ul>
    </nav>
    <div class="promo">
@@ -247,8 +472,8 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
                 <h3 class="subscribe__h3">Subscribe</h3>
                <h4 class="suscribe__h4">FOR OUR NEWLETTER AND PROMOTION</h4>
                <form method="post" action="#" class="subscribe__form">
-                   <input type="email" placeholder="Enter Your Email" class="subscribe__input">
-                   <a href="#"><div class="subscribe__button">Subscribe</div></a>
+                   <input type="email" required placeholder="Enter Your Email" class="subscribe__input">
+                   <button type="submit" class="subscribe__button">Subscribe</button>
                </form>
             </div> 
         </div>
@@ -305,7 +530,7 @@ a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<
                     <a href="#" class="social__item"><i class="fab fa-facebook-f social__img"></i></a>
                     <a href="#" class="social__item"><i class="fab fa-twitter social__img"></i></a>
                     <a href="#" class="social__item"><i class="fab fa-instagram social__img"></i></a>
-                    <a href="#" class="social__item"><i class="fab fa-facebook-f social__img"></i></a>
+                    <a href="#" class="social__item"><i class="fab fa-google-plus-g social__img"></i></i></a>
                 </div>
             </div>
         </div>
