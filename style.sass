@@ -1216,58 +1216,138 @@ a
   height: 630px
   padding-top: 11px
 
-.product-description__block
+.product-description
   border: 1px solid #eaeaea
   background-color: #ffffff
   z-index: 100
   margin-top: -73px
   padding-top: 73px
   padding-bottom: 122px
+  margin-bottom: 100px
 
-.product-description__title
-  text-align: center
-  margin: 0 auto
-  width: 255px
+  &__content
+    width: 644px
+    margin: 0 auto
+    border-bottom: 1px solid #eaeaea
 
-.product-description__h3
-  color: $primary-color
-  font-size: 14px
-  font-weight: 700
-  text-transform: uppercase
-  padding-bottom: 15px
+  &__title
+    text-align: center
+    margin: 0 auto
 
-.product-description__h4
-  color: #4d4d4d
-  font-size: 18px
-  font-weight: 400
-  text-transform: uppercase
-  margin-bottom: 67px
+  &__h3
+    color: $primary-color
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    padding-bottom: 15px
+    margin: 0 auto 15px
+    width: fit-content
+    border: solid transparent
+    border-image: url("img/underline.png") 0 0 3 0
 
-.product-description__text
-  width: 618px
-  color: #5e5e5e
-  font-size: 14px
-  font-weight: 300
-  margin: 0 auto
-  text-align: center
-  line-height: 24px
+  &__h4
+    color: #4d4d4d
+    font-size: 18px
+    font-weight: 400
+    text-transform: uppercase
+    margin-bottom: 67px
 
-.product-description__params
-  display: flex
-  width: 340px
-  margin: 0 auto
-  justify-content: space-between
-  margin-top: 28px
+  &__text
+    width: 618px
+    color: #5e5e5e
+    font-size: 14px
+    font-weight: 300
+    margin: 0 auto
+    text-align: center
+    line-height: 24px
 
-.param-name
-  color: #b9b9b9
-  font-size: 14px
-  font-weight: 700
-  text-transform: uppercase
+  &__params
+    display: flex
+    width: 340px
+    margin: 0 auto
+    justify-content: space-between
+    margin-top: 28px
 
-  &:first-of-type
-    padding-right: 44px
+  &__param-name
+    color: #b9b9b9
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+  &__param-value
+    color: #2f2f2f
+    &:first-of-type
+      padding-right: 44px
 
-.param-value
-  color: #2f2f2f
+  &__price
+    width: 54px
+    color: $primary-color
+    margin: 0 auto
+    text-align: center
+    padding-top: 37px
+    padding-bottom: 43px
+    font-size: 24px
+    font-weight: 700
+    line-height: 24px
+
+  &__options
+      width: 538px
+      margin: 63px auto 0
+
+  &__options-container
+      display: flex
+      justify-content: space-between
+  &__option-name
+      display: block
+      color: #2f2f2f
+      font-size: 14px
+      font-weight: 700
+      line-height: 24px
+      text-transform: uppercase
+  &__option
+    width: 114px
+    height: 35px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    position: relative
+    padding-left: 15px
+    padding-right: 15px
+    color: #bcbcbc
+    font-size: 13px
+    font-weight: 400
+    line-height: 24px
+    text-transform: uppercase
+    &::-webkit-color-swatch-wrapper
+      width: 17px
+      height: 20px
+      position: absolute
+      top: 6px
+      left: 10px
+      border-color: transparent
+      outline: none
+
+    &[type="color"]
+      position: relative
+      &::after
+        content: 'Red'
+        position: absolute
+        color: #bcbcbc
+        font-size: 13px
+        font-weight: 400
+        line-height: 24px
+        top: 4px
+        left: 37px
+
+    &::before
+      content: "\f107"
+      font-family: FontAwesome
+      color: #bcbcbc
+      font-size: 14px
+      font-weight: 400
+      position: absolute
+      right: 9px
+      padding-bottom: 11px
+      padding-top: 11px
+
+
+
 
