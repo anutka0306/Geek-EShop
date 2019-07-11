@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>I-shop</title>
+    <title>Cart</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -270,123 +270,69 @@
     </div>
 </div>
 
-<div class="product-slider__block">
-    <img src="img/arrow-left.png" alt="" class="product-slider__arrow">
-    <img src="img/single-product-img.jpg" alt="" class="product-slider__image">
-    <img src="img/arrow-right.png" alt="" class="product-slider__arrow">
-</div>
-
-<div class="product-description container">
-    <div class="product-description__content">
-        <hgroup class="product-description__title">
-            <h3 class="product-description__h3">WOMEN COLLECTION</h3>
-            <h4 class="product-description__h4">Moschino Cheap And Chic</h4>
-        </hgroup>
-        <p class="product-description__text">
-            Compellingly actualize fully researched processes before proactive outsourcing.
-            Progressively syndicate collaborative architectures before cutting-edge services.
-            Completely visualize parallel core competencies rather than exceptional portals.
-        </p>
-        <div class="product-description__params">
-            <p class="product-description__param-name">MATERIAL: <span class="product-description__param-value">COTTON</span></p>
-            <p class="product-description__param-name">DESIGNER: <span class="product-description__param-value">BINBURHAN</span></p>
+<div class="cart container">
+    <div class="cart__list">
+        <div class="cart__item cart__table-titles">
+            <div class="cart__product-details">Product Details</div>
+            <div class="cart__unite-price">unite Price</div>
+            <div class="cart__quantity">Quantity</div>
+            <div class="cart__shipping">shipping</div>
+            <div class="cart__subtotal-price">Subtotal</div>
+            <div class="cart__action_del">ACTION</div>
         </div>
-        <div class="product-description__price">$561</div>
-    </div>
-    <form action="" name="product-description__options" class="product-description__options">
-        <div class="product-description__options-container">
-            <label class="product-description__option-name">CHOOSE COLOR<input
-                type="color" name="" class="product-description__option" value="#ef5b70"></label>
-            <label class="product-description__option-name">CHOOSE SIZE
-                <select class="product-description__option" placeholder="XXS">
-
-                        <option value="xxs">XXS</option>
-                        <option value="xs">XS</option>
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
-                        <option value="xxl">XXL</option>
-
-                </select>
-            </label>
-            <label class="product-description__option-name">QUANTITY<input
-                type="number" value="2" class="product-description__option"></label>
-        </div>
-        <a href="#" class="product-description__button" value="Add to Cart">
-            <img class="product-description__cart-img" src="img/cart-pink.svg" alt="cart"> Add to Cart
-        </a>
-    </form>
-</div>
-
-<div class="additional-looks container">
-    <h3 class="additional-looks__title">you may like also</h3>
-    <div class="additional-looks__content flex-between">
-        <div class="additional-looks__item">
-            <div class="additional-looks__img"> <img src="img/look4.jpg" alt=""></div>
-            <a href="single-product.html"><h4 class="additional-looks__item-title">BLAZE LEGGINGS</h4></a>
-            <p class="additional-looks__item-price">$52.00</p>
-
-            <div class="additional-looks_hover">
-                <a href="#">
-                    <div href="#" class="additional-looks__item-button">
-                        <img src="img/cart-white.svg" alt="add to cart">
-                        <p class="additional-looks__item-button-text">Add to Cart</p>
-                    </div>
-                </a>
+        <div class="cart__item cart__product">
+            <div class="cart__product-details">
+                <img src="img/cart-good01.jpg" alt="cart good" class="cart__product-details-img">
+                <div class="cart__product-details-content">
+                    <h4 class="cart__product-details-title">Mango  People  T-shirt</h4>
+                    <p class="cart__product-details-params"><strong>Color: </strong>Red</p>
+                    <p class="cart__product-details-params"><strong>Size: </strong>Xll</p>
+                </div>
             </div>
-
+            <div class="cart__unite-price cart-font">$150</div>
+            <div class="cart__quantity cart-font">2</div>
+            <div class="cart__shipping cart-font">FREE</div>
+            <div class="cart__subtotal-price cart-font">$300</div>
+            <div class="cart__action_del"><i class="fas fa-minus-square cart__icon_del"></i></div>
         </div>
 
-        <div class="additional-looks__item">
-            <div class="additional-looks__img"> <img src="img/look1.jpg" alt=""></div>
-            <a href="single-product.html"><h4 class="additional-looks__item-title">ALEXA SWEATER</h4></a>
-            <p class="additional-looks__item-price">$52.00</p>
-
-            <div class="additional-looks_hover">
-                <a href="#">
-                    <div href="#" class="additional-looks__item-button">
-                        <img src="img/cart-white.svg" alt="add to cart">
-                        <p class="additional-looks__item-button-text">Add to Cart</p>
-                    </div>
-                </a>
+        <div class="cart__item cart__product">
+            <div class="cart__product-details">
+                <img src="img/cart-good2.jpg" alt="cart good" class="cart__product-details-img">
+                <div class="cart__product-details-content">
+                    <h4 class="cart__product-details-title">Mango  People  T-shirt</h4>
+                    <p class="cart__product-details-params"><strong>Color: </strong>Red</p>
+                    <p class="cart__product-details-params"><strong>Size: </strong>Xll</p>
+                </div>
             </div>
-
+            <div class="cart__unite-price cart-font">$150</div>
+            <div class="cart__quantity cart-font">2</div>
+            <div class="cart__shipping cart-font">FREE</div>
+            <div class="cart__subtotal-price cart-font">$300</div>
+            <div class="cart__action_del"><i class="fas fa-minus-square cart__icon_del"></i></div>
         </div>
 
-        <div class="additional-looks__item">
-            <div class="additional-looks__img"> <img src="img/look2.jpg" alt=""></div>
-            <a href="single-product.html"><h4 class="additional-looks__item-title">AGNES TOP</h4></a>
-            <p class="additional-looks__item-price">$52.00</p>
-
-            <div class="additional-looks_hover">
-                <a href="#">
-                    <div href="#" class="additional-looks__item-button">
-                        <img src="img/cart-white.svg" alt="add to cart">
-                        <p class="additional-looks__item-button-text">Add to Cart</p>
-                    </div>
-                </a>
+        <div class="cart__item cart__product">
+            <div class="cart__product-details">
+                <img src="img/cart-good3.jpg" alt="cart good" class="cart__product-details-img">
+                <div class="cart__product-details-content">
+                    <h4 class="cart__product-details-title">Mango  People  T-shirt</h4>
+                    <p class="cart__product-details-params"><strong>Color: </strong>Red</p>
+                    <p class="cart__product-details-params"><strong>Size: </strong>Xll</p>
+                </div>
             </div>
-
-        </div>
-
-        <div class="additional-looks__item">
-            <div class="additional-looks__img"> <img src="img/look3.jpg" alt=""></div>
-            <a href="single-product.html"><h4 class="additional-looks__item-title">SYLVA SWEATER</h4></a>
-            <p class="additional-looks__item-price">$52.00</p>
-
-            <div class="additional-looks_hover">
-                <a href="#">
-                    <div href="#" class="additional-looks__item-button">
-                        <img src="img/cart-white.svg" alt="add to cart">
-                        <p class="additional-looks__item-button-text">Add to Cart</p>
-                    </div>
-                </a>
-            </div>
-
+            <div class="cart__unite-price cart-font">$150</div>
+            <div class="cart__quantity cart-font">2</div>
+            <div class="cart__shipping cart-font">FREE</div>
+            <div class="cart__subtotal-price cart-font">$300</div>
+            <div class="cart__action_del"><i class="fas fa-minus-square cart__icon_del"></i></div>
         </div>
     </div>
 </div>
+
+
+
+
 
 <section class="subscribe-review__block">
     <div class="review">
