@@ -332,6 +332,39 @@
             <a href="#" class="cart__shopping-button cart__buttons-block-item">continue shoppping</a>
         </div>
     </div>
+    <div class="cart__checkout">
+        <div class="cart__delivery cart__checkout-item">
+            <h4 class="cart__checkout-title">Shipping Adress</h4>
+            <form action="#" class="cart__checkout-form">
+                <input list="countries" class="cart__checkout-form-input">
+                <datalist id="countries">
+                    <option value="Bangladesh"></option>
+                    <option value="Russia"></option>
+                    <option value="Italy"></option>
+                    <option value="Spain"></option>
+                    <option value="Mexico"></option>
+                </datalist>
+                <input class="cart__checkout-form-input" placeholder="State">
+                <input class="cart__checkout-form-input" placeholder="Postcode/Zip">
+                <button class="cart__checkout-form-button">get a quote</button>
+            </form>
+        </div>
+        <div class="cart__discount cart__checkout-item">
+            <h4 class="cart__checkout-title">coupon  discount</h4>
+            <p class="cart__checkout-text">Enter your coupon code if you have one</p>
+            <form action="#" class="cart__checkout-form">
+                <input class="cart__checkout-form-input" placeholder="State">
+                <button class="cart__checkout-form-button">Apply coupon</button>
+            </form>
+        </div>
+        <div class="cart__total-checkout cart__checkout-item">
+            <div class="cart__checkout-price">
+                <p class="cart__checkout-subtotal">Sub total      $900</p>
+                <p class="cart__checkout-grandtotal">GRAND TOTAL <span class="cart__checkout-grandtotal_pink">$900</span></p>
+                <button class="cart__grandtotal-button">proceed to checkout</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
