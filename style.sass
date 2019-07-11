@@ -1537,3 +1537,88 @@ a
         background-color: #4a4a4a
         color: #ffffff
   &__checkout
+    padding-top: 43px
+    padding-bottom: 79px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    &-item
+      width: 355px
+      padding-right: 35px
+      &:last-child
+        width: 360px
+    &-title
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+      padding-bottom: 22px
+    &-form-input
+      height: 45px
+      border: 1px solid #eaeaea
+      width: 319px
+      display: block
+      padding-left: 18px
+      padding-right: 18px
+      color: #b1b1b1
+      font-size: 13px
+      font-weight: 300
+      margin-bottom: 20px
+    &-form-button
+      height: 35px
+      border: 1px solid #eaeaea
+      padding-left: 15px
+      padding-right: 15px
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 700
+      text-transform: uppercase
+      cursor: pointer
+      transition: all 0.4s ease-in
+      &:hover
+        background-color: #4a4a4a
+        color: #ffffff
+    &-text
+      color: #000000
+      font-size: 14px
+      font-weight: 300
+      padding-top: 6px
+      padding-bottom: 24px
+    &-price
+      text-align: right
+      padding-bottom: 22px
+      border-bottom: 1px solid #e2e2e2
+
+    &-subtotal
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 400
+      text-transform: uppercase
+      padding-bottom: 14px
+    &-grandtotal
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+      &_pink
+        color: $primary-color
+        padding-left: 15px
+    &-subtotal_span
+      padding-left: 15px
+  &__total-checkout
+    background-color: #f5f3f3
+    padding: 42px
+  &__grandtotal-button
+    height: 50px
+    background-color: $primary-color
+    width: 100%
+    margin-top: 17px
+    color: #ffffff
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    cursor: pointer
+    transition: transform 0.3s ease-in
+    &:hover
+      transform: scale(1.02, 1.02)
+
