@@ -1342,15 +1342,121 @@ a {
 
 .checkout {
   padding-top: 56px; }
-  .checkout__section-title {
+  .checkout__section {
+    border-bottom: 1px solid #e8e8e8; }
+    .checkout__section-title {
+      color: #222222;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-top: 33px;
+      padding-bottom: 33px; }
+      .checkout__section-title::-webkit-details-marker {
+        display: none; }
+    .checkout__section-content {
+      display: flex; }
+  .checkout__role-choise {
+    padding-left: 35px;
+    padding-right: 264px; }
+  .checkout__subtitle {
     color: #222222;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 33px;
-    padding-bottom: 33px;
-    border-bottom: 1px solid #e8e8e8; }
-    .checkout__section-title::-webkit-details-marker {
-      display: none; }
+    padding-bottom: 15px; }
+  .checkout__text {
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 34px; }
+  .checkout__role-form {
+    margin-bottom: 33px; }
+  .checkout__role-item {
+    display: none; }
+  .checkout__role-label {
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .checkout__role-label:last-of-type {
+      padding-bottom: 33px; }
+    .checkout__role-label::before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-right: 14px;
+      border-radius: 12px;
+      border: 2px solid #000; }
+  .checkout__role-item:checked + .checkout__role-label::before {
+    content: "•";
+    text-align: center;
+    color: #000;
+    font-size: 11px; }
+  .checkout__advantages {
+    padding-top: 11px;
+    list-style-type: none; }
+    .checkout__advantages-item {
+      color: #b3b2b2;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px; }
+      .checkout__advantages-item::before {
+        content: "";
+        font-family: FontAwesome;
+        color: #b3b2b2;
+        font-size: 13px;
+        font-weight: 400;
+        padding-right: 4px; }
+  .checkout__button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-top: 38px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+    transition: all 0.3s ease-in; }
+    .checkout__button:hover {
+      background-color: #4a4a4a;
+      color: #ffffff; }
+  .checkout__login-form {
+    padding-bottom: 23px; }
+  .checkout__login-label {
+    display: block;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 16px; }
+  .checkout__login_required {
+    color: #ff0d0d;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px; }
+  .checkout__login-input {
+    width: 390px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff; }
+    .checkout__login-input:last-of-type {
+      margin-bottom: 22px; }
+  .checkout__login-button-block {
+    display: flex;
+    align-items: center; }
+  .checkout__forget-password {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 34px; }
 
 /*# sourceMappingURL=style.css.map */
