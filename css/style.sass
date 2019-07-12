@@ -292,7 +292,7 @@ a
     height: 100%
     display: flex
     align-items: center
-    background-image: url(img/promo-bg.jpg)
+    background-image: url(../img/promo-bg.jpg)
     background-position: 0 -52px
 
 
@@ -314,20 +314,20 @@ a
     height: 542px
 
   &__item_big:first-of-type
-    background-image: url(img/offer-big1.jpg)
+    background-image: url(../img/offer-big1.jpg)
 
   &__item_big:nth-child(2)
-    background-image: url(img/offer-big-2.jpg)
+    background-image: url(../img/offer-big-2.jpg)
 
 
   &__item_mini
     height: 261px
 
   &__item_mini:first-of-type
-    background-image: url(img/offer-small-2.jpg)
+    background-image: url(../img/offer-small-2.jpg)
 
   &__item_mini:nth-child(2)
-    background-image: url(img/offer-small-1.jpg)
+    background-image: url(../img/offer-small-1.jpg)
 
 
   &__lable
@@ -444,7 +444,7 @@ a
     position: absolute
     height: 279px
     width: 100%
-    background-image: url(img/fetured-hover-bg.png)
+    background-image: url(../img/fetured-hover-bg.png)
     background-repeat: no-repeat
     top: 0px
     left: 0px
@@ -467,7 +467,7 @@ a
 
   &__image
     width: 767px
-    background-image: url(img/banner-cover.png),url(img/offer-banner.jpg)
+    background-image: url(../img/banner-cover.png),url(../img/offer-banner.jpg)
     background-repeat: no-repeat, no-repeat
     background-size: cover,cover
 
@@ -541,7 +541,7 @@ a
   &-review__block
     height: 437px
     width: 100%
-    background-image: url(img/subscribe-review-bg.jpg)
+    background-image: url(../img/subscribe-review-bg.jpg)
     background-repeat: no-repeat
     display: flex
     background-size: cover
@@ -827,7 +827,7 @@ a
     margin-top: 20px
     width: 255px
     height: 118px
-    background-image: url(img/drop-menu-img.jpg)
+    background-image: url(../img/drop-menu-img.jpg)
     background-repeat: no-repeat
     background-size: cover
     background-position: center
@@ -1243,7 +1243,7 @@ a
     margin: 0 auto 15px
     width: fit-content
     border: solid transparent
-    border-image: url("img/underline.png") 0 0 3 0
+    border-image: url("../img/underline.png") 0 0 3 0
 
   &__h4
     color: #4d4d4d
@@ -1449,7 +1449,7 @@ a
     position: absolute
     height: 279px
     width: 100%
-    background-image: url(img/fetured-hover-bg.png)
+    background-image: url(../img/fetured-hover-bg.png)
     background-repeat: no-repeat
     top: 0px
     left: 0px
@@ -1502,9 +1502,12 @@ a
   &__unite-price
     width: 13%
     text-align: center
-  &__quantity
-    width: 13%
+  &__quantity-input
     text-align: center
+    width: 54px
+    height: 30px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
   &__shipping
     width: 13%
     text-align: center
@@ -1519,6 +1522,9 @@ a
     height: 15px
     color: #c0c0c0
     font-size: 16px
+    cursor: pointer
+    &:hover
+      color: $primary-color
   &__buttons-block
     border-color: transparent
     &-item
