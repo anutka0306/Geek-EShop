@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cart</title>
+    <title>Checkout</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -273,6 +273,39 @@
 <div class="checkout container">
     <details class="checkout__section" open="open">
         <summary class="checkout__section-title">01.   Shipping Adress</summary>
+        <div class="checkout__role-choise">
+            <h5 class="checkout__subtitle">Check as a guest or register</h5>
+            <p class="checkout__text">Register with us for future convenience</p>
+            <form action="#" class="checkout__role-form">
+                <input type="radio" class="checkout__role-item">checkout as guest
+                <input type="radio" class="checkout__role-item">register
+                <h5 class="checkout__subtitle">register and save time!</h5>
+                <p class="checkout__text"></p>
+                <ul class="checkout__advantages">
+                    <li class="checkout__advantages-item">Fast and easy checkout</li>
+                    <li class="checkout__advantages-item">Easy access to your order history and status</li>
+                </ul>
+                <input type="submit" class="checkout__button" value="Continue">
+                <p class="checkout__text">Please log in below</p>
+            </form>
+        </div>
+        <div class="checkout__login">
+            <h5 class="checkout__subtitle">Already registed?</h5>
+            <p class="checkout__text">Please log in below</p>
+            <form action="#" class="checkout__login-form">
+                <label class="checkout__login-label">EMAIL ADDRESS <span class="checkout__login_required">*</span>
+                    <input type="email" required class="checkout__login-input">
+                </label>
+                <label class="checkout__login-label">PASSWORD<span class="checkout__login_required">*</span>
+                    <input type="password" required class="checkout__login-input">
+                </label>
+                <p><span class="checkout__login_required">* Required Fileds</span></p>
+                <div class="checkout__login-button-block">
+                    <input type="submit" class="checkout__button" value="Login">
+                    <a href="#" class="checkout__forget-password">Forgot Password ?</a>
+                </div>
+            </form>
+        </div>
     </details>
     <details class="checkout__section">
         <summary class="checkout__section-title">02.   BILLING INFORMATION</summary>
