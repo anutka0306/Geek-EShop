@@ -8,6 +8,12 @@ $primary-color: #f16d7f
 body
   font-family: 'Lato', sans-serif
 
+input
+  outline: none
+
+button
+  outline: none
+  cursor: pointer
 
 a
   text-decoration: none
@@ -154,6 +160,8 @@ a
     font-weight: 700
     text-transform: uppercase
     letter-spacing: 0
+    &:hover
+      color: $primary-color
 
 
 .cart__drop__menu 
@@ -202,6 +210,10 @@ a
   background-color: #ffffff
   margin-bottom: 11px
   cursor: pointer
+  transition: all 0.3s ease-in
+  &:hover
+    background-color: $primary-color
+    color: #ffffff
 
 
 .cart__button_go-to-cart
@@ -215,6 +227,10 @@ a
   padding-left: 87px
   padding-right: 88px
   cursor: pointer
+  transition: all 0.3s ease-in
+  &:hover
+    background-color: #4a4a4a
+    color: #ffffff
 
 
 .cart_total-price 
@@ -236,6 +252,9 @@ a
   font-size: 15px
   font-weight: 400
   letter-spacing: 0.38px
+  transition: transform 0.2s ease-in
+  &:hover
+    transform: scale(1.02,1.02)
 
 .menu 
   display: flex
@@ -336,6 +355,9 @@ a
     background-color: #ffffff
     position: absolute
     top: 26px
+    transition: transform 0.3s ease-in
+    &:hover
+      transform: translateX(20px)
 
 
   &__h3
@@ -343,6 +365,7 @@ a
     font-weight: 600
     text-transform: uppercase
     letter-spacing: 0.75px
+    color: #4a4a4a
 
 
   &__h4
@@ -604,6 +627,10 @@ a
     letter-spacing: 0.35px
     cursor: pointer
     border-color: transparent
+    transition: all 0.4s ease-in
+    &:hover
+      background-color: #fff
+      color: $primary-color
 
 
 
@@ -740,7 +767,7 @@ a
   background-color: #ffffff
   text-align: center
   margin-right: 8px
-
+  transition: all 0.3s ease-in
 
 
   &:hover
@@ -1149,16 +1176,21 @@ a
   width: 100%
 
 
-.view-all__button 
+.view-all__button
   width: 150px
   height: 44px
   border-radius: 3px
-  border: 1px solid #ef5b70
+  border: 1px solid $primary-color
   background-color: #ffffff
-  color: #ef5b70
+  color: $primary-color
   font-size: 16px
   font-weight: bold
   line-height: 26px
+  transition: all 0.3s ease-in
+  &:hover
+    background-color: $primary-color
+    color: #ffffff
+
 
 
 .advantage__block 
@@ -1739,6 +1771,8 @@ a
     height: 45px
     border: 1px solid #eaeaea
     background-color: #ffffff
+    padding-right: 15px
+    padding-left: 15px
     &:last-of-type
       margin-bottom: 22px
   &__login-button-block
