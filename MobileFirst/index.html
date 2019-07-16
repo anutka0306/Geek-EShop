@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile First</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <a class="header__logo">
+                <img src="img/logo-header.png" alt="">
+            </a>
+            <nav class="header__menu">
+                <a class="menu_mini"><img src="img/menu-mini.png" alt=""></a>
+                <div class="menu-mobile__wrapper">
+                    <div class="menu-mobile_top">
+                        <a class="menu-mobile__logo" href="#">
+                            <img src="img/logo-menu-mini-open.png" alt="logo">
+                        </a>
+                        <a href="#" class="menu-mobile__close-btn">
+                            <img src="img/close.svg" alt="">
+                        </a>
+                    </div>
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__item">Главная</a></li>
+                        <li><a href="#" class="menu__item">Отзывы</a></li>
+                        <li><a href="#" class="menu__item">Гарантии</a></li>
+                        <li><a href="#" class="menu__item">Описание</a></li>
+                        <li><a href="#" class="menu__item">Партнеры</a></li>
+                        <li><a href="#" class="menu__item">Преимущества</a></li>
+                        <li><a href="#" class="menu__item">FAQ</a></li>
+                    </ul>
+                    <form class="menu-mobile__form">
+                        <p class="menu-mobile__form-title">ОСТАЛИСЬ ВОПРОСЫ?</p>
+                        <input type="tel" class="menu-mobile__form-input" placeholder="Ваш телефон">
+                        <input type="submit" class="menu-mobile__form-button" value="заказать звонок">
+                        <label for="agree"class="menu-mobile__form-checkbox-text">
+                            <input type="checkbox" class="menu-mobile__form-checkbox" name="agree" id="agree">
+                        Я согласен на обработку персональных данных</label>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
