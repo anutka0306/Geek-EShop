@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <title>Mobile First</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-    <header class="header">
+    <div class="first-block">
+        <header class="header">
         <div class="header__top">
             <a class="header__logo">
                 <img src="img/logo-header.png" alt="">
             </a>
             <nav class="header__menu">
-                <a class="menu_mini"><img src="img/menu-mini.png" alt=""></a>
-                <div class="menu-mobile__wrapper">
+                <a class="menu_mini" id="mobileMenuBtn" onclick="menuOpen()"></a>
+                <div class="menu-mobile__wrapper" id="mobileMenuBlock">
                     <div class="menu-mobile_top">
                         <a class="menu-mobile__logo" href="#">
                             <img src="img/logo-menu-mini-open.png" alt="logo">
-                        </a>
-                        <a href="#" class="menu-mobile__close-btn">
-                            <img src="img/close.svg" alt="">
                         </a>
                     </div>
                     <ul class="menu__list">
@@ -40,9 +40,20 @@
                             <input type="checkbox" class="menu-mobile__form-checkbox" name="agree" id="agree">
                         Я согласен на обработку персональных данных</label>
                     </form>
+                    <div class="menu-mobile__social">
+                        <a href="#" class="menu-mobile__social-item"><img src="img/vk.svg" alt="vk"></a>
+                        <a href="#" class="menu-mobile__social-item"><img src="img/insta.svg" alt="insta"></a>
+                        <a href="#" class="menu-mobile__social-item"><img src="img/fb.svg" alt="fb"></a>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
+        <div class="slogan">
+            <h1 class="slogan__title">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+            <h2 class="slogan__subtitle">А посылка доедет сама</h2>
+            <a href="#" class="slogan__button"><span>отправить посылку</span></a>
+        </div>
+    </div>
 </body>
 </html>

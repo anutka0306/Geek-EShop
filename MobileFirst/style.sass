@@ -2,10 +2,13 @@
   margin: 0
   padding: 0
 body
-  font-family: Myriad Pro
+  font-family: 'PT Sans'
 a
   text-decoration: none
-
+.show
+  display: block !important
+.first-block
+  height: 504px
 .header
   height: 277px
   width: 100%
@@ -23,6 +26,20 @@ a
     height: 29px
     display: block
     cursor: pointer
+.menu_mini
+  height: 45px
+  width: 45px
+  display: block
+  background-image: url("img/menu-mini.png")
+  background-repeat: no-repeat
+  z-index: 100
+  position: absolute
+  top: 23px
+  right: 23px
+  &-opened
+    background-image: url("img/close.svg")
+
+
 .menu-mobile__wrapper
   height: 616px
   width: 100%
@@ -30,6 +47,8 @@ a
   top: 0
   left: 0
   background: #ffffff
+  display: none
+
 .menu__list
   list-style-type: none
   padding-left: 23px
@@ -89,3 +108,84 @@ a
     align-items: center
   &-checkbox
     margin-right: 10px
+
+.menu-mobile__social
+  display: flex
+  justify-content: space-between
+  padding-left: 23px
+  padding-right: 23px
+  padding-top: 23px
+.slogan
+  padding-top: 21px
+  padding-left: 21px
+  padding-right: 21px
+  padding-bottom: 27px
+  &__title
+    font-size: 32px
+    line-height: 38px
+    color: #000000
+    padding-bottom: 8px
+    font-weight: bolder
+  &__subtitle
+    font-size: 24px
+    line-height: 29px
+    color: #000000
+    font-weight: bolder
+  &__button
+    background: #008DCD
+    border-radius: 30px
+    height: 48px
+    margin-top: 17px
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 16px
+    color: #ffffff
+    text-transform: uppercase
+    width: 280px
+
+@media screen and (min-width: 768px)
+  .menu_mini
+    display: none
+  .menu-mobile__wrapper
+    display: block
+    background: transparent
+    height: 40px
+    position: static
+  .menu-mobile__logo
+    display: none
+  .menu-mobile__form
+    display: none
+  .menu-mobile__social
+    display: none
+  .menu__list
+    display: flex
+    align-items: center
+    height: 27px
+  .menu__item
+    font-size: 14px
+    line-height: 17px
+    color: #ffffff
+    padding-right: 32px
+    padding-bottom: 0
+  .menu-mobile_top
+    padding-top: 0
+  .header
+    background-image: url("img/bg-header728.jpg")
+    height: 415px
+    &__top
+      justify-content: start
+  .slogan
+    position: absolute
+    top: 113px
+    width: 400px
+    &__title
+      font-size: 44px
+      color: #ffffff
+      line-height: 53px
+    &__subtitle
+      margin-top: 18px
+      font-size: 28px
+      line-height: 34px
+      color: #ffffff
+      margin-bottom: 36px
