@@ -134,7 +134,7 @@ a
     background: #008DCD
     border-radius: 30px
     height: 48px
-    margin-top: 17px
+    margin: 17px auto
     display: flex
     align-items: center
     justify-content: center
@@ -145,11 +145,15 @@ a
 .info-block
   padding: 17px 21px
   background: #F7F7F7
+  display: flex
+  flex-direction: column
+  align-items: center
   &__title
     font-size: 18px
     line-height: 22px
     color: #000000
     padding-bottom: 10px
+    padding-top: 25px
   &__image
     width: 278px
   &__p
@@ -183,6 +187,8 @@ a
     padding-bottom: 0
   .menu-mobile_top
     padding-top: 0
+  .first-block
+    height: 415px
   .header
     background-image: url("img/bg-header728.jpg")
     height: 415px
@@ -193,6 +199,7 @@ a
     position: absolute
     top: 113px
     width: 400px
+    padding-left: 34px
     &__title
       font-size: 44px
       color: #ffffff
@@ -203,8 +210,32 @@ a
       line-height: 34px
       color: #ffffff
       margin-bottom: 36px
+    &__button
+      margin: 0
+  .info-block
+    padding: 25px 34px 34px 51px
+    display: flex
+    justify-content: space-between
+    flex-direction: row-reverse
+    flex-wrap: wrap
+    &__image
+      order: 2
+      width: 380px
+    &__title
+      order: 1
+      width: 100%
+      font-size: 36px
+      line-height: 43px
+    &__content
+      order: 2
+      width: 280px
+      margin-right: 22px
+    &__p
+      padding-bottom: 34px
 
 @media screen and (min-width: 1440px)
+  .first-block
+    height: 525px
   .header
     background-image: url("img/bg-header1440.jpg")
     min-height: 525px
@@ -220,3 +251,18 @@ a
     top: 163px
     &__button:hover
       box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45)
+  .info-block
+    padding: 61px 140px 59px 140px
+    flex-direction: row
+    &__image
+      width: 660px
+    &__title
+      width: 460px
+      margin-top: -170px
+    &__content
+      width: 460px
+      order: 3
+      margin-top: -160px
+    &__p
+      font-size: 16px
+      line-height: 19px
