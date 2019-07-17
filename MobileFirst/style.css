@@ -16,7 +16,6 @@ a {
 
 .header {
   height: 277px;
-  width: 100%;
   background-image: url("img/bg-header320.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,7 +152,22 @@ a {
     font-size: 16px;
     color: #ffffff;
     text-transform: uppercase;
-    width: 280px; }
+    width: 277px; }
+
+.info-block {
+  padding: 17px 21px;
+  background: #F7F7F7; }
+  .info-block__title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 10px; }
+  .info-block__image {
+    width: 278px; }
+  .info-block__p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000; }
 
 @media screen and (min-width: 768px) {
   .menu_mini {
