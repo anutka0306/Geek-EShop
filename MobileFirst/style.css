@@ -209,5 +209,20 @@ a {
       line-height: 34px;
       color: #ffffff;
       margin-bottom: 36px; } }
+@media screen and (min-width: 1440px) {
+  .header {
+    background-image: url("img/bg-header1440.jpg");
+    height: 525px;
+    padding-left: 140px; }
+    .header__logo {
+      margin-right: 140px; }
+
+  .menu__item {
+    padding-right: 60px; }
+
+  .slogan {
+    left: 140px;
+    width: 748px;
+    top: 163px; } }
 
 /*# sourceMappingURL=style.css.map */
