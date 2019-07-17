@@ -15,7 +15,7 @@ a
   background-image: url("img/bg-header320.png")
   background-repeat: no-repeat
   background-size: cover
-  background-position: top
+  background-position: center
   &__top
     display: flex
     justify-content: space-between
@@ -173,6 +173,7 @@ a
   .header
     background-image: url("img/bg-header728.jpg")
     height: 415px
+    background-position: center
     &__top
       justify-content: start
   .slogan
@@ -193,8 +194,9 @@ a
 @media screen and (min-width: 1440px)
   .header
     background-image: url("img/bg-header1440.jpg")
-    height: 525px
+    min-height: 525px
     padding-left: 140px
+    background-position: center
     &__logo
       margin-right: 140px
   .menu__item
@@ -203,3 +205,5 @@ a
     left: 140px
     width: 748px
     top: 163px
+    &__button:hover
+      box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45)
