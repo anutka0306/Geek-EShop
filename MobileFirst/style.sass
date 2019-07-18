@@ -160,7 +160,22 @@ a
     font-size: 12px
     line-height: 14px
     color: #000000
-
+.steps
+  padding: 27px 21px
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__item
+    width: 278px
+    padding-bottom: 55px
+  &__h3
+    font-size: 26px
+    line-height: 31px
+    margin-top: 27px
+  &__description
+    font-size: 14px
+    line-height: 17px
+    margin-top: 5px
 @media screen and (min-width: 768px)
   .menu_mini
     display: none
@@ -213,7 +228,7 @@ a
     &__button
       margin: 0
   .info-block
-    padding: 25px 34px 34px 51px
+    padding: 25px 34px 51px 34px
     display: flex
     justify-content: space-between
     flex-direction: row-reverse
@@ -232,7 +247,20 @@ a
       margin-right: 22px
     &__p
       padding-bottom: 34px
-
+  .steps
+    padding: 38px 54px 66px 74px
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: start
+    &__item
+      width: 50%
+    &__h3
+      font-size: 27px
+      line-height: 31px
+    &__description
+      font-size: 16px
+      line-height: 19px
 @media screen and (min-width: 1440px)
   .first-block
     height: 525px
@@ -266,3 +294,16 @@ a
     &__p
       font-size: 16px
       line-height: 19px
+  .steps
+    padding: 68px 240px 33px 140px
+    &__item
+      width: 460px
+    &__description
+      font-size: 20px
+      line-height: 24px
+      margin-top: 9px
+    &__h3
+      font-size: 30px
+      line-height: 36px
+    &__image
+      width: 460px
