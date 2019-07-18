@@ -1,3 +1,5 @@
+$grey: #f7f7f7
+$blue: #008DCD
 *
   margin: 0
   padding: 0
@@ -90,10 +92,10 @@ a
   &-button
     width: 274px
     border-radius: 30px
-    border: 1px solid #008DCD
+    border: 1px solid $blue
     height: 40px
     text-align: center
-    background: #008DCD
+    background: $blue
     margin-top: 10px
     display: block
     text-transform: uppercase
@@ -131,7 +133,7 @@ a
     color: #000000
     font-weight: bolder
   &__button
-    background: #008DCD
+    background: $blue
     border-radius: 30px
     height: 48px
     margin: 17px auto
@@ -144,7 +146,7 @@ a
     width: 277px
 .info-block
   padding: 17px 21px
-  background: #F7F7F7
+  background: $grey
   display: flex
   flex-direction: column
   align-items: center
@@ -179,12 +181,53 @@ a
 
 .action-block1
   padding: 23px 22px
-  background: #f7f7f7
+  background: $grey
   display: flex
   flex-direction: column
   &__title
     font-size: 24px
     line-height: 29px
+.action-block2
+  padding: 32px 21px 7px 21px
+  background: $blue
+  display: flex
+  flex-direction: column
+  &__title
+    font-size: 28px
+    line-height: 34px
+    text-transform: uppercase
+    color: #ffffff
+    font-weight: bold
+    margin-bottom: 11px
+  &__p
+    font-size: 14px
+    line-height: 13px
+    color: #ffffff
+    margin-bottom: 14px
+  &__input
+    height: 48px
+    background: $blue
+    color: #ffffff
+    border-color: #ffffff
+    font-size: 16px
+    width: 231px
+    margin: 0 auto
+    &::-webkit-input-placeholder
+      color: #ffffff
+  &__button
+    background: #FFCC00
+    height: 48px
+    width: 277px
+    font-size: 16px
+    color: #363636
+    text-transform: uppercase
+    margin: 9px auto
+    font-weight: bold
+  &__checkbox
+    color: #ffffff
+    margin-top: 7px
+
+
 @media screen and (min-width: 768px)
   .menu_mini
     display: none
@@ -278,6 +321,13 @@ a
       width: 380px
       font-size: 28px
       line-height: 34px
+  .action-block2
+    flex-direction: row
+    justify-content: space-between
+    padding: 31px 34px 14px 34px
+    &__item
+      width: 280px
+
 @media screen and (min-width: 1440px)
   .first-block
     height: 525px
@@ -332,3 +382,19 @@ a
       line-height: 43px
   .slogan__button_action
     width: 360px
+  .action-block2
+    padding: 68px 140px 39px 140px
+    &__item
+      width: auto
+    &__title
+      font-size: 48px
+      line-height: 58px
+    &__p
+      font-size: 24px
+      line-height: 23px
+    &__input
+      width: 314px
+    &__button
+      width: 360px
+      &:hover
+        box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55)

@@ -156,7 +156,7 @@ a {
 
 .info-block {
   padding: 17px 21px;
-  background: #F7F7F7;
+  background: #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -198,6 +198,46 @@ a {
   .action-block1__title {
     font-size: 24px;
     line-height: 29px; }
+
+.action-block2 {
+  padding: 32px 21px 7px 21px;
+  background: #008DCD;
+  display: flex;
+  flex-direction: column; }
+  .action-block2__title {
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 11px; }
+  .action-block2__p {
+    font-size: 14px;
+    line-height: 13px;
+    color: #ffffff;
+    margin-bottom: 14px; }
+  .action-block2__input {
+    height: 48px;
+    background: #008DCD;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-size: 16px;
+    width: 231px;
+    margin: 0 auto; }
+    .action-block2__input::-webkit-input-placeholder {
+      color: #ffffff; }
+  .action-block2__button {
+    background: #FFCC00;
+    height: 48px;
+    width: 277px;
+    font-size: 16px;
+    color: #363636;
+    text-transform: uppercase;
+    margin: 9px auto;
+    font-weight: bold; }
+  .action-block2__checkbox {
+    color: #ffffff;
+    margin-top: 7px; }
 
 @media screen and (min-width: 768px) {
   .menu_mini {
@@ -304,7 +344,14 @@ a {
     .action-block1__title {
       width: 380px;
       font-size: 28px;
-      line-height: 34px; } }
+      line-height: 34px; }
+
+  .action-block2 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 31px 34px 14px 34px; }
+    .action-block2__item {
+      width: 280px; } }
 @media screen and (min-width: 1440px) {
   .first-block {
     height: 525px; }
@@ -365,6 +412,23 @@ a {
       line-height: 43px; }
 
   .slogan__button_action {
-    width: 360px; } }
+    width: 360px; }
+
+  .action-block2 {
+    padding: 68px 140px 39px 140px; }
+    .action-block2__item {
+      width: auto; }
+    .action-block2__title {
+      font-size: 48px;
+      line-height: 58px; }
+    .action-block2__p {
+      font-size: 24px;
+      line-height: 23px; }
+    .action-block2__input {
+      width: 314px; }
+    .action-block2__button {
+      width: 360px; }
+      .action-block2__button:hover {
+        box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55); } }
 
 /*# sourceMappingURL=style.css.map */
