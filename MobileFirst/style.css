@@ -395,7 +395,24 @@ a {
     justify-content: space-between;
     padding: 31px 34px 14px 34px; }
     .action-block2__item {
-      width: 280px; } }
+      width: 280px; }
+
+  .review {
+    padding: 51px 34px; }
+    .review__list {
+      justify-content: space-around; }
+    .review__item {
+      display: flex;
+      padding-right: 41px;
+      padding-left: 41px; }
+      .review__item:not(:first-child) {
+        display: flex; }
+    .review__person-foto {
+      width: 101px; }
+    .review__title {
+      margin-bottom: 26px;
+      font-size: 36px;
+      line-height: 43px; } }
 @media screen and (min-width: 1440px) {
   .first-block {
     height: 525px; }
@@ -473,6 +490,28 @@ a {
     .action-block2__button {
       width: 360px; }
       .action-block2__button:hover {
-        box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55); } }
+        box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55); }
+
+  .review {
+    padding: 69px 140px 57px 140px; }
+    .review__arrow {
+      width: 80%; }
+    .review__item {
+      padding-right: 70px;
+      padding-left: 70px; }
+    .review__text {
+      font-size: 16px;
+      line-height: 19px; }
+    .review__person-foto {
+      width: 161px; }
+    .review__person-name {
+      font-size: 36px;
+      line-height: 43px; }
+    .review__sending-details {
+      font-size: 16px;
+      line-height: 19px; }
+    .review__person-company {
+      font-size: 20px;
+      line-height: 24px; } }
 
 /*# sourceMappingURL=style.css.map */

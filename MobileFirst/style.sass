@@ -371,6 +371,22 @@ a
     padding: 31px 34px 14px 34px
     &__item
       width: 280px
+  .review
+    padding: 51px 34px
+    &__list
+      justify-content: space-around
+    &__item
+      display: flex
+      padding-right: 41px
+      padding-left: 41px
+      &:not(:first-child)
+        display: flex
+    &__person-foto
+      width: 101px
+    &__title
+      margin-bottom: 26px
+      font-size: 36px
+      line-height: 43px
 
 @media screen and (min-width: 1440px)
   .first-block
@@ -442,3 +458,24 @@ a
       width: 360px
       &:hover
         box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55)
+  .review
+    padding: 69px 140px 57px 140px
+    &__arrow
+      width: 80%
+    &__item
+      padding-right: 70px
+      padding-left: 70px
+    &__text
+      font-size: 16px
+      line-height: 19px
+    &__person-foto
+      width: 161px
+    &__person-name
+      font-size: 36px
+      line-height: 43px
+    &__sending-details
+      font-size: 16px
+      line-height: 19px
+    &__person-company
+      font-size: 20px
+      line-height: 24px
