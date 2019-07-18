@@ -227,6 +227,50 @@ a
     color: #ffffff
     margin-top: 7px
 
+.review
+  padding: 21px 22px 30px 22px
+  position: relative
+  &__title
+    font-size: 28px
+    line-height: 34px
+    margin-bottom: 10px
+  &__arrow
+    display: flex
+    justify-content: space-between
+    position: absolute
+    width: 90%
+    top: 50%
+  &__list
+    display: flex
+  &__item
+    display: flex
+    flex-direction: column
+    padding-left: 20px
+    padding-right: 15px
+    &:not(:first-child)
+      display: none
+  &__person-block
+    display: flex
+    margin-bottom: 15px
+    align-items: flex-start
+  &__person-foto
+    margin-right: 20px
+  &__person-name
+    font-size: 26px
+    line-height: 31px
+    margin-bottom: 6px
+  &__person-company
+    font-size: 18px
+    line-height: 22px
+    margin-bottom: 9px
+  &__sending-details
+    font-size: 10px
+    line-height: 12px
+    padding-bottom: 5px
+  &__text
+    font-size: 12px
+    line-height: 14px
+
 
 @media screen and (min-width: 768px)
   .menu_mini
