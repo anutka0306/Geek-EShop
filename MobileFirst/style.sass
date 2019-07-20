@@ -1,5 +1,6 @@
 $grey: #f7f7f7
 $blue: #008DCD
+
 *
   margin: 0
   padding: 0
@@ -234,6 +235,7 @@ a
     font-size: 28px
     line-height: 34px
     margin-bottom: 10px
+    text-transform: uppercase
   &__arrow
     display: flex
     justify-content: space-between
@@ -271,6 +273,32 @@ a
     font-size: 12px
     line-height: 14px
 
+.fetures
+  padding: 21px 22px 30px 22px
+  background: $grey
+  &__list
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: 12px
+  &__item
+    display: flex
+    flex-direction: column
+    width: 86px
+    margin-bottom: 34px
+  &__image
+    width: 86px
+    height: 86px
+    border-radius: 50%
+    background: #ffffff
+    display: flex
+    align-items: center
+    justify-content: center
+  &__p
+    text-align: center
+    margin-top: 9px
+    font-size: 10px
+    line-height: 12px
 
 @media screen and (min-width: 768px)
   .menu_mini
@@ -387,7 +415,17 @@ a
       margin-bottom: 26px
       font-size: 36px
       line-height: 43px
-
+  .fetures
+    padding: 37px 35px
+    &__item
+      width: 100px
+    &__image
+      width: 100px
+      height: 100px
+    &__p
+      font-size: 12px
+      line-height: 14px
+      margin-top: 17px
 @media screen and (min-width: 1440px)
   .first-block
     height: 525px
@@ -479,3 +517,12 @@ a
     &__person-company
       font-size: 20px
       line-height: 24px
+  .fetures
+    padding: 100px 140px
+    &__item
+      width: 160px
+    &__image
+      width: 160px
+      height: 160px
+    &__p
+      margin-top: 34px
