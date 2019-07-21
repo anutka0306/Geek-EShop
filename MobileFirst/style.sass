@@ -300,6 +300,42 @@ a
     font-size: 10px
     line-height: 12px
 
+.guarantees
+  padding: 27px 21px 20px 21px
+  position: relative
+  &__arrows
+    top: 94px
+  &__list
+    display: flex
+  &__item
+    display: flex
+    flex-direction: column
+    padding-left: 22px
+    padding-right: 22px
+    &:not(:first-child)
+      display: none
+    &_top
+      display: flex
+      align-items: center
+      margin-bottom: 12px
+    &_image
+      width: 62px
+      height: 62px
+      border-radius: 50%
+      background: $grey
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-right: 10px
+    &_title
+      width: 160px
+      font-size: 16px
+      line-height: 19px
+      font-weight: bold
+    &_text
+      font-size: 12px
+      line-height: 14px
+      margin-bottom: 8px
 @media screen and (min-width: 768px)
   .menu_mini
     display: none
