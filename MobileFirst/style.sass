@@ -462,6 +462,34 @@ a
       font-size: 12px
       line-height: 14px
       margin-top: 17px
+  .guarantees
+    padding: 47px 34px 42px 34px
+    &__arrows
+      display: none
+    &__item
+      width: 212px
+      padding-left: 0
+      padding-right: 0
+      justify-content: inherit
+      &:not(:first-child)
+        display: flex
+      &_image
+        width: 100px
+        height: 100px
+        margin-bottom: 18px
+      &_top
+        flex-direction: column
+        align-items: start
+      &_title
+        width: 220px
+        font-size: 20px
+        line-height: 24px
+    &__button
+      width: 220px
+      margin-top: 30px
+    &__list
+      justify-content: space-between
+
 @media screen and (min-width: 1440px)
   .first-block
     height: 525px
@@ -562,3 +590,22 @@ a
       height: 160px
     &__p
       margin-top: 34px
+      font-size: 18px
+      line-height: 22px
+  .guarantees
+    padding: 80px 140px 64px 140px
+    &__item
+      width: 360px
+      &_image
+        width: 160px
+        height: 160px
+        margin-bottom: 32px
+      &_title
+        font-size: 30px
+        line-height: 36px
+        width: 357px
+      &_text
+        font-size: 16px
+        line-height: 19px
+    &__button
+      width: 360px
