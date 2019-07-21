@@ -8,6 +8,8 @@ body
   font-family: 'PT Sans'
 a
   text-decoration: none
+details,summary,input,button
+  outline: none
 .show
   display: block !important
 .first-block
@@ -336,6 +338,32 @@ a
       font-size: 12px
       line-height: 14px
       margin-bottom: 8px
+.questions
+  padding: 51px 22px 25px 22px
+  background: #D2ECF7
+  &__list
+    margin-top: 26px
+  &__item
+    margin-bottom: 10px
+  &__summary
+    width: 230px
+    height: 80px
+    border-radius: 32px
+    background: #ffffff
+    padding: 16px 24px 13px 24px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-size: 14px
+    line-height: 17px
+    margin-bottom: 10px
+    &::-webkit-details-marker
+      display: none
+    &::after
+      content: '\f078'
+      font-family: FontAwesome
+      color: $blue
+      padding-left: 20px
 @media screen and (min-width: 768px)
   .menu_mini
     display: none
