@@ -345,6 +345,8 @@ details,summary,input,button
     margin-top: 26px
   &__item
     margin-bottom: 10px
+    &[open] .questions__summary
+      border-radius: 32px 32px 0 0
   &__summary
     width: 230px
     height: 80px
@@ -364,6 +366,14 @@ details,summary,input,button
       font-family: FontAwesome
       color: $blue
       padding-left: 20px
+  &__answer
+    background: $grey
+    border-radius: 0 0 32px 32px
+    padding: 16px 24px 13px 24px
+    width: 230px
+    margin-top: -10px
+    padding-top: 20px
+    padding-bottom: 20px
 @media screen and (min-width: 768px)
   .menu_mini
     display: none
@@ -517,6 +527,25 @@ details,summary,input,button
       margin-top: 30px
     &__list
       justify-content: space-between
+  .questions
+    padding: 45px 34px 34px 39px
+    &__summary
+      height: 20px
+      width: 632px
+      padding-left: 31px
+      padding-right: 37px
+      font-size: 16px
+      line-height: 19px
+    &__answer
+      padding-left: 31px
+      padding-right: 37px
+      font-size: 16px
+      line-height: 19px
+      margin-top: -10px
+      padding-top: 20px
+      padding-bottom: 20px
+      width: 631px
+
 
 @media screen and (min-width: 1440px)
   .first-block
@@ -637,3 +666,28 @@ details,summary,input,button
         line-height: 19px
     &__button
       width: 360px
+  .questions
+    padding: 64px 140px 36px 140px
+    &__list
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: flex-start
+    &__item
+      width: 493px
+    &__summary
+      width: 493px
+      padding-left: 30px
+      padding-right: 35px
+      font-size: 16px
+      line-height: 19px
+    &__answer
+      width: 493px
+      padding-left: 30px
+      padding-right: 35px
+      padding-top: 20px
+      padding-bottom: 35px
+      margin-top: -10px
+      font-size: 16px
+      line-height: 19px
+
