@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile First</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fbeb08ead3.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="first-block">
+        <header class="header">
+        <div class="header__top">
+            <a class="header__logo">
+                <img src="img/logo-header.png" alt="">
+            </a>
+            <nav class="header__menu">
+                <a class="menu_mini" id="mobileMenuBtn" onclick="menuOpen()"></a>
+                <div class="menu-mobile__wrapper" id="mobileMenuBlock">
+                    <div class="menu-mobile_top">
+                        <a class="menu-mobile__logo" href="#">
+                            <img src="img/logo-menu-mini-open.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__item">Главная</a></li>
+                        <li><a href="#" class="menu__item">Отзывы</a></li>
+                        <li><a href="#" class="menu__item">Гарантии</a></li>
+                        <li><a href="#" class="menu__item">Описание</a></li>
+                        <li><a href="#" class="menu__item">Партнеры</a></li>
+                        <li><a href="#" class="menu__item">Преимущества</a></li>
+                        <li><a href="#" class="menu__item">FAQ</a></li>
+                    </ul>
+                    <form class="menu-mobile__form">
+                        <p class="menu-mobile__form-title">ОСТАЛИСЬ ВОПРОСЫ?</p>
+                        <input type="tel" class="menu-mobile__form-input" placeholder="Ваш телефон">
+                        <input type="submit" class="menu-mobile__form-button" value="заказать звонок">
+                        <label for="agree"class="menu-mobile__form-checkbox-text">
+                            <input type="checkbox" class="menu-mobile__form-checkbox" name="agree" id="agree">
+                        Я согласен на обработку персональных данных</label>
+                    </form>
+                    <div class="menu-mobile__social">
+                        <a href="#" class="menu-mobile__social-item"><img src="img/vk.svg" alt="vk"></a>
+                        <a href="#" class="menu-mobile__social-item"><img src="img/insta.svg" alt="insta"></a>
+                        <a href="#" class="menu-mobile__social-item"><img src="img/fb.svg" alt="fb"></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <div class="slogan">
+            <h1 class="slogan__title">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+            <h2 class="slogan__subtitle">А посылка доедет сама</h2>
+            <a href="#" class="slogan__button"><span>отправить посылку</span></a>
+        </div>
+    </div>
+    <div class="info-block">
+        <img src="img/info-img.png" alt="Info" class="info-block__image">
+        <h2 class="info-block__title">Мы – агрегатор служб доставки</h2>
+        <div class="info-block__content">
+            <p class="info-block__p">
+                С нами удобно вам, вашим клиентам и курьерским службам.
+                Для вас наши услуги бесплатны, так как мы получаем бонусы от служб доставок за
+                предоставленный объем заказов, а вы получаете надежный сервис в подарок!
+            </p>
+            <a href="#" class="slogan__button slogan__button_info"><span>отправить посылку</span></a>
+        </div>
+    </div>
+    <div class="steps">
+        <div class="steps__item"><img src="img/step1.png" alt="step1" class="steps__image">
+            <h3 class="steps__h3">Шаг 1</h3>
+            <p class="steps__description">Придумайте что и кому отправить</p>
+        </div>
+        <div class="steps__item"><img src="img/step2.png" alt="step2" class="steps__image">
+            <h3 class="steps__h3">Шаг 2</h3>
+            <p class="steps__description">Создайте заявку на сайте SendIt -
+                Ваш персональный менеджер позвонит и подтвердит запрос, уточнит
+                все необходимые данные</p>
+        </div>
+        <div class="steps__item"><img src="img/step3.png" alt="step3" class="steps__image">
+            <h3 class="steps__h3">Шаг 3</h3>
+            <p class="steps__description">К Вам приезжает курьер, забирает посылку,
+                Вы подписываете один документ</p>
+        </div>
+        <div class="steps__item"><img src="img/step4.png" alt="step4" class="steps__image">
+            <h3 class="steps__h3">Шаг 4</h3>
+            <p class="steps__description">Вы ждёте подтверждения доставки, слова радости и
+                благодарности от адресата :)</p>
+        </div>
+    </div>
+    <div class="action-block1">
+        <h3 class="action-block1__title">Мы берём все заботы по доставке на себя!</h3>
+        <a href="#" class="slogan__button slogan__button_action"><span>отправить посылку</span></a>
+    </div>
+    <div class="action-block2">
+        <div class="action-block2__item">
+            <h3 class="action-block2__title">хотите мы вам перезвоним?</h3>
+            <p class="action-block2__p">Закажите звонок, и менеджер вам всё расскажет и объяснит</p>
+        </div>
+        <form class="action-block2__form action-block2__item">
+            <input type="tel" class="menu-mobile__form-input action-block2__input" placeholder="Ваш телефон">
+            <input type="submit" class="menu-mobile__form-button action-block2__button" value="заказать звонок">
+            <label for="agree"class="menu-mobile__form-checkbox-text action-block2__checkbox">
+                <input type="checkbox" class="menu-mobile__form-checkbox" name="agree" id="agree">
+                Я согласен на обработку персональных данных</label>
+        </form>
+    </div>
+    <div class="review">
+        <h2 class="review__title">Отзывы</h2>
+        <div class="review__arrow">
+            <a href="#" class="review__arrow_left"><img src="img/arrow2.svg" alt="left"></a>
+            <a href="#" class="review__arrow_right"><img src="img/arrow1.svg" alt="right"></a>
+        </div>
+        <div class="review__list">
+            <div class="review__item">
+                <div class="review__person-block">
+                    <img src="img/rev1.jpg" alt="review1" class="review__person-foto">
+                    <div class="review__person-info">
+                        <p class="review__person-name">Дарья</p>
+                        <p class="review__person-company">La Intuicion</p>
+                        <p class="review__sending-details">Посылка: товары</p>
+                        <p class="review__sending-details">Откуда: Москва</p>
+                        <p class="review__sending-details">Куда: Нижневартовск</p>
+                    </div>
+                </div>
+                <div class="review__text">
+                    <p>Отличный и качественный сервис. Долго искали курьерскую службу для доставки наших товаров.
+                        Решили попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет
+                        доступ в личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и                        вызов курьера в пару кликов).</p>
+                </div>
+            </div>
+
+            <div class="review__item">
+                <div class="review__person-block">
+                    <img src="img/rev2.jpg" alt="review1" class="review__person-foto">
+                    <div class="review__person-info">
+                        <p class="review__person-name">Елена</p>
+                        <p class="review__person-company">Global Logic</p>
+                        <p class="review__sending-details">Посылка: товары</p>
+                        <p class="review__sending-details">Откуда: Москва</p>
+                        <p class="review__sending-details">Куда: Калининград</p>
+                    </div>
+                </div>
+                <div class="review__text">
+                    <p>Мне нравится работать с SendIt, потому что это удобно: моментальный расчет стоимости доставки, удобный сайт, выборка среди основных надёжных логистических компаний и самый значимый фактор – всё это можно оперативно организовать и не волноваться. И ещё хочу сказать отдельное спасибо менеджеру за отзывчивость.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fetures">
+        <h2 class="review__title">НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="fetures__list">
+            <div class="fetures__item">
+                <div class="fetures__image">
+                    <img src="img/feture1.svg" alt="feture">
+                </div>
+                <p class="fetures__p">Бесплатный сервис</p></div>
+            <div class="fetures__item">
+               <div class="fetures__image">
+                   <img src="img/feture2.svg" alt="feture">
+               </div>
+                <p class="fetures__p">Огромный выбор вариантов доставки</p></div>
+            <div class="fetures__item">
+                <div class="fetures__image">
+                    <img src="img/feture3.svg" alt="feture">
+                </div>
+                <p class="fetures__p">4 параметра лучшего предложения </p></div>
+            <div class="fetures__item">
+                <div class="fetures__image">
+                <img src="img/feture4.svg" alt="feture">
+                </div>
+                <p class="fetures__p">Удобство заказа</p></div>
+            <div class="fetures__item">
+                <div class="fetures__image">
+                <img src="img/feture5.svg" alt="feture">
+                </div>
+                <p class="fetures__p">Online-поддержка</p></div>
+            <div class="fetures__item">
+                <div class="fetures__image">
+                    <img src="img/feture6.svg" alt="feture">
+                </div>
+                <p class="fetures__p">Единый номер отслеживания </p></div>
+        </div>
+    </div>
+    <div class="guarantees">
+        <h2 class="review__title">НАШИ ГАРАНТИИ</h2>
+        <div class="review__arrow guarantees__arrows">
+            <a href="#" class="review__arrow_left"><img src="img/arrow2.svg" alt="left"></a>
+            <a href="#" class="review__arrow_right"><img src="img/arrow1.svg" alt="right"></a>
+        </div>
+        <div class="guarantees__list">
+            <div class="guarantees__item">
+                <div class="guarantees__item_top">
+                    <div class="guarantees__item_image">
+                        <img src="img/guarantees1.svg" alt="guarantees">
+                    </div>
+                    <p class="guarantees__item_title">Страховка отправлений</p>
+                </div>
+                <p class="guarantees__item_text">Контроль работы курьеров в онлайн режиме.
+                    Страхование по запросу клиента Каждый куръер находится под пристальным
+                    вниманием менеджеров SendIt</p>
+                <a href="#" class="slogan__button guarantees__button"><span>подробнее</span></a>
+            </div>
+            <div class="guarantees__item">
+                <div class="guarantees__item_top">
+                    <div class="guarantees__item_image">
+                        <img src="img/guarantees2.svg" alt="guarantees">
+                    </div>
+                    <p class="guarantees__item_title">Прозрачность расчетов</p>
+                </div>
+                <p class="guarantees__item_text">Чтобы узнать точную стоимость отправления вам не нужно связываться с каждой курьерской службой в отдельности и сравнивать полученные предложения, просто воспользуйтесь нашим сервисом</p>
+                <a href="#" class="slogan__button guarantees__button"><span>подробнее</span></a>
+            </div>
+            <div class="guarantees__item">
+                <div class="guarantees__item_top">
+                    <div class="guarantees__item_image">
+                        <img src="img/guarantees3.svg" alt="guarantees">
+                    </div>
+                    <p class="guarantees__item_title">Лучшие поставщики</p>
+                </div>
+                <p class="guarantees__item_text">Мы работаем с самыми надежными и известными операторами доставки. Проверка надежности курьерской компании, экспертная оценка качества предоставляемых услуг</p>
+                <a href="#" class="slogan__button guarantees__button"><span>подробнее</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="questions">
+        <h2 class="review__title">остались сомнения?</h2>
+        <div class="questions__list">
+            <details class="questions__item">
+                <summary class="questions__summary">На бумажную волокиту уйдёт много времени, а мне нужно доставить срочно!</summary>
+                <div class="questions__answer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                    dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                    voluptatem, voluptatum.</p>
+                </div>
+            </details>
+            <details class="questions__item">
+                <summary class="questions__summary">Мне необходимо совершить доставку по нескольким адресам, нужно много чего заполнять</summary>
+                <div class="questions__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                        dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                        voluptatem, voluptatum.</p>
+                </div>
+            </details>
+            <details class="questions__item">
+                <summary class="questions__summary">Вы не сможете доставить посылку за границу</summary>
+                <div class="questions__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                        dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                        voluptatem, voluptatum.</p>
+                </div>
+            </details>
+            <details class="questions__item">
+                <summary class="questions__summary">Вы не занимаетесь такими простыми грузами, как мебель</summary>
+                <div class="questions__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                        dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                        voluptatem, voluptatum.</p>
+                </div>
+            </details>
+            <details class="questions__item">
+                <summary class="questions__summary">Я отправляю вместе с коллегами, мы можем легко запутаться где чьё</summary>
+                <div class="questions__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                        dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                        voluptatem, voluptatum.</p>
+                </div>
+            </details>
+            <details class="questions__item">
+                <summary class="questions__summary">Нужно заполнять кучу документов</summary>
+                <div class="questions__answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi culpa delectus deleniti deserunt
+                        dicta doloremque ducimus eum, id illo in optio praesentium quos repellat soluta suscipit vero
+                        voluptatem, voluptatum.</p>
+                </div>
+            </details>
+        </div>
+    </div>
+</body>
+</html>
